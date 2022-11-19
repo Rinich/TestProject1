@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renat's TestProject</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+  <div class="blockMain">
+    <div class="blockOne">
+      <input type="button" value="1" class="buttonNum" onclick="addNumber(value)"/>
+      <input type="button" value="2" class="buttonNum" onclick="addNumber(value)"/>
+      <input type="button" value="3" class="buttonNum" onclick="addNumber(value)"/>
+      <br>
+      <br>
+      <input type="button" value="4" class="buttonNum" onclick="addNumber(value)"/>
+      <input type="button" value="5" class="buttonNum" onclick="addNumber(value)"/>
+      <input type="button" value="6" class="buttonNum" onclick="addNumber(value)"/>
+      <br>
+      <br>
+      <input type="button" value="7" class="buttonNum" onclick="addNumber(value)"/>
+      <input type="button" value="8" class="buttonNum" onclick="addNumber(value)"/>
+      <input type="button" value="9" class="buttonNum" onclick="addNumber(value)"/>
+      <br>
+      <br>
+      <input type="button" value="  " class="buttonFake" disabled/>
+      <input type="button" value="0" class="buttonNum" onclick="addNumber(value)"/>
+      <input type="button" value="*"class="buttonNum" onclick="showPassword()"/>
+    </div>
+    <div class="blockTwo">
+      <input type="button" value="Cancel"class="buttonCancel" onclick="cancelNumber()"/>
+      <br>
+      <br>
+      <input type="button" value="Clear" class="buttonClear" onclick="clearData()"/>
+      <br>
+      <br>
+      <input type="button" value="Enter" class="buttonEnter" onclick="showEnter()"/>
+      <br>
+      <br>
+      <input type="password"  name="message"class="resultField" id="idField" disabled/>
+    </div>
+  </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

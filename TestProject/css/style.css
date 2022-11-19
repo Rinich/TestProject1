@@ -1,0 +1,84 @@
+/*Общий стиль кнопок*/
+.buttonNum,.buttonFake,.buttonCancel,.buttonClear,.buttonEnter,.buttonShowPass,.resultField {
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    border: 1px solid #444;
+    border-radius: 10px;
+    box-shadow: 0 4px #999;
+  }
+
+  /*Стиль кнопок-цифр*/
+.buttonNum,.buttonFake {
+    width: 70px;
+   height: 50px;
+    display: inline-block;
+    text-align: left;
+    color: #000000;
+    background-color: rgb(216, 216, 216);
+  }
+  .buttonNum:hover {background-color: rgb(175, 175, 175)}
+  .buttonNum:active {
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+  }
+
+   /*Стиль кнопок-команд*/
+   .buttonCancel,.buttonClear,.buttonEnter,.buttonShowPass {
+    width: 120px;
+    height: 50px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .resultField{
+    color: #000000;
+    text-align: center;
+    width: 115px;
+    height: 49px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .buttonCancel{background-color: rgb(189, 32, 32)}
+  .buttonCancel:hover {background-color: rgb(135, 26, 26)}
+  .buttonCancel:active {
+    box-shadow: 0 2px #666;
+    transform: translate(-50%, 4px);
+  }
+  .buttonClear{background-color: rgb(242, 242, 42)}
+  .buttonClear:hover {background-color: rgb(192, 192, 32)}
+  .buttonClear:active {
+    box-shadow: 0 2px #666;
+    transform: translate(-50%, 4px);
+  }
+  .buttonEnter{background-color: rgb(69, 176, 20)}
+  .buttonEnter:hover {background-color: rgb(47, 121, 12)}
+  .buttonEnter:active {
+    box-shadow: 0 2px #666;
+    transform: translate(-50%, 4px);
+  }
+
+.blockMain {
+    border: 3px solid gray;
+    border-radius: 15px;
+    max-width: 400px;
+    margin: 100px auto;
+    height: 300px;
+    position: relative;
+    background-color: rgb(236, 236, 236);
+}
+.blockOne{
+    width: 55%;
+    left: 5%;
+    top:5%;
+    position: absolute;
+}
+.blockTwo{
+    width: -45%;
+    right: 5%;
+    top:5%;
+    position: absolute;
+    
+}
